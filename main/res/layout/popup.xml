@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/profilebg">
+
+    <TextView
+        android:id="@+id/popu_emailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="~ PROFILE ~"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="@font/aclonica"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="58dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/popu_emailTV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="266dp"
+        android:text="User:"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/popu_username"
+        android:layout_width="239dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/popu_emailTV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:text="Juan"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="265dp"
+        android:text="E-Mail:"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/popu_emailadd"
+        android:layout_width="239dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/popu_username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="23dp"
+        android:text="user1samplemail@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/popu_logoutBtn"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/popu_username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/button2"
+        android:onClick="logout"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
